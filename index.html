@@ -2,9 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Gestion-absence/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gestion des Absences</title>
+    <script type="text/javascript">
+      // Gestion des routes SPA pour GitHub Pages
+      (function() {
+        // Redirection depuis GitHub Pages 404 page
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
     <script type="module" crossorigin src="/Gestion-absence/assets/index-cd14771b.js"></script>
     <link rel="stylesheet" href="/Gestion-absence/assets/index-20d281d8.css">
   </head>
