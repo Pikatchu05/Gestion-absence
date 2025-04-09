@@ -1,0 +1,39 @@
+{
+  "name": "gestion-absences-front",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://Pikatchu05.github.io/Gestion-absence",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -r https://github.com/Pikatchu05/Gestion-absence.git"
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "gh-pages": "^6.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.14.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.44.0",
+    "@tailwindcss/postcss": "^4.0.9",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react": "^4.0.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.44.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "globals": "^13.20.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.0"
+  }
+}

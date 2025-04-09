@@ -1,0 +1,6 @@
+DB_HOST=localhost
+DB_USER=root
+DB_PASS=
+DB_NAME=gestion_absence
+JWT_SECRET=monsecretjwt
+PORT=5000
